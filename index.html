@@ -4,41 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url(pexels-burst-373883.jpg);
+            background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+        }
+        .heading{
+            /* border: 2px solid black; */
+            color: black;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration-line: underline ;
+            font-size: xx-large;
+            text-shadow: 2px 2px white;
+        }
+        #w{
+            color: #042370;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration-line: underline ;
+            
+        }
+        .members{
+            /* border: 4px solid black; */
+            text-align: center;
+        
+        
+        }
+        li{
+            list-style: none;
+            font-size: 30px;
+            font-weight: bolder;
+            font-family: monospace;
+            /* text-shadow: 2px 2px #ff0000; */
+        }
+        li:hover{
+            font-size: 40px;
+        }
+        .continue{
+            /* border: 2px solid black; */
+            text-align: center;
+            text-decoration: none;
+        }
+        .btn{
+            color: black;
+            /* background: transparent; */
+            /* background-color: gray; */
+            height: 80px;
+            width: 400px;
+            border-radius: 5%;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover{
+            font-size: larger;
+            /* background-color: #042370; */
+        
+        }
+        h2{
+            font-weight: bolder;
+            font-size: 50px;
+            font-family: cursive;
+            text-shadow: 2px 2px tomato;
+        }
+    </style>
 </head>
 <body>
-    <div class="all">
-
-        <div class="logo">
-            
-            <h1 >Digital Clock</h1>
-        </div>
-        
-        <div class="digitalclock">
-            <div class="day">
-                <span id="dd">friday</span>
-            </div>
-            <div class="time">
-                <div class="leftside">
-                    <span id="hours"> 00 </span>
-                </div>
-                <div class="rightside">
-                    <div class="righttop">
-                    <span id="dots">:</span>
-                    <span id="minutes">00</span>
-                </div>
-                <div class="rightbottom">
-                    <span id="seconds">00</span>
-                    <span id="AM">mm</span>
-                    
-                </div>
-            </div>
-        </div>
-        <div class="date">
-            <span id="dt">August 19 2023</span>
-        </div>
+    <div class="heading">
+        <h1><span id="w">W</span>elcome to Our Project</h1>
     </div>
-</div>
-    <script src="/script.js"></script>
+    <div class="members">
+        <h2>Group Members</h2>
+        <ul>
+            <li>Abdullah Azhar</li>
+            <li>Umer Aslam</li>
+            <li>Muhammad Mumtaz</li>
+        </ul>
+    </div>
+    <div class="continue">
+        <button class="btn"><a href="index.html">Let's Continue To Our Project...</a></button>
+        
+    </div>
+    
 </body>
 </html>
