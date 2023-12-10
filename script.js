@@ -21,7 +21,7 @@ function clock() {
     if (h == 0) {
         h = 12;
     }
-    var ampm = h <= 12 ? "PM" : "AM";
+    var ampm = h <= 12 ? "AM" : "PM";
     periods.innerHTML = ampm;
     h = h < 10 ? "0" + h : h;
     m = m < 10 ? "0" + m : m;

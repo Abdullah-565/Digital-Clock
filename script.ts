@@ -26,7 +26,7 @@ function clock (){
     }
     
     
-    let ampm = h<=12 ? "PM": "AM";
+    let ampm = h<=12 ? "AM": "PM";
     
     periods.innerHTML = ampm;
     
